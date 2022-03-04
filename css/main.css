@@ -12,15 +12,34 @@ video {
 }
 
 .card {
+  overflow: hidden;
   border-radius: 1rem;
-  padding: 2rem;
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
 }
 
+.card p {
+  padding: 2rem;
+}
+
 .container {
-  max-width: 48rem;
+  max-width: 96rem;
   margin: 0 auto;
   padding: 1rem;
+}
+
+.hero {
+  min-height: 70vh;
+  background: linear-gradient(135deg, #8090ac, #f2b0ab, #f9e3b7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero > * {
+  max-width: 75ch;
 }
 
 /*Mobile only*/
