@@ -31,6 +31,7 @@ video {
   min-height: 70vh;
   background: linear-gradient(135deg, #8090ac, #f2b0ab, #f9e3b7);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 150%;
